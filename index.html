@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Virtual Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/PointerLockControls.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="loading">
+            <div class="spinner"></div>
+            <p>Loading Virtual Gallery...</p>
+        </div>
+        
+        <div id="ui">
+            <h3>🎨 Virtual Art Gallery</h3>
+            <p><strong>Navigation:</strong></p>
+            <p>• Click to lock controls</p>
+            <p>• WASD/Arrow Keys: Move</p>
+            <p>• Shift: Run</p>
+            <p>• Space: Jump/Float up</p>
+            <p>• C: Crouch/Float down</p>
+            <p>• ESC: Release controls</p>
+        </div>
+
+        <div id="info">
+            Position: <span id="position">0, 0, 0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
