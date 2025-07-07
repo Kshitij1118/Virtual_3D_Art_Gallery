@@ -52,4 +52,40 @@ Virtual_3D_Art_Gallery/
 │
 ├── package.json
 └── README.md
+```
 
+---
+
+## 🧑‍💻 Getting Started
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Kshitij1118/Virtual_3D_Art_Gallery.git
+```
+
+Go to the project directory
+
+```bash
+  cd Virtual_3D_Art_Gallery
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+---
+## ⚙️ Controls
+
+**W, A, S, D**: Move forward, left, backward, right
+
+**Mouse drag**: Look around
